@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=Uyw5yBFEoXo
+link to shadergraph intersection tutorial.
+
+How to utilize Intersection shader:
+1.	Download the ShaderPlaytest and attach it to your project
+a.	Inside the ShaderPlaytest you will find 2 scenes one of which specifically shows of the capabilities of the Intersection ShaderGraph material
+2.	Attach the IntersectionShaderMat found at Assets > Materials, to a 3D object
+3.	Once attached if the 3d object crosses through any other object it should glow based on the options you select in the Inspector window on yout right
+a.	Under the Surface Inputs you should see 2 things:
+i.	IntersectionDepth – which changes how far away from the intersecting objects the one with the attached material glows
+ii.	IntersectionColor – which changes the color of the indicated intersection.
+Note: the SurfaceType for the IntersectionShaderMat must be Transparent for this shader to function as intended.
